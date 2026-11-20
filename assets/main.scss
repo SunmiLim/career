@@ -1,0 +1,12 @@
+---
+---
+
+$base-font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", sans-serif;
+$base-line-height: 1.75;
+
+@import "minima";
+
+body {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}

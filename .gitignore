@@ -1,0 +1,42 @@
+# Jekyll 빌드 결과
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# 대용량 미디어는 외장 드라이브에 보관 (git에 넣지 않음)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.m4v
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.aiff
+*.psd
+*.psb
+*.ai
+*.indd
+*.prproj
+*.aep
+*.drp
+*.raw
+*.cr2
+*.cr3
+*.nef
+*.arw
+*.dng
+*.heic
+*.zip
+*.7z
+
+# OS·편집기 부산물
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
+.claude/settings.local.json

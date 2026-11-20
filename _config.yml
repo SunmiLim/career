@@ -1,0 +1,22 @@
+# GitHub Pages가 직접 빌드 (로컬 Ruby 불필요)
+title: 커리어 기록
+description: 일하면서 만들고, 배우고, 막혔던 것들을 기록합니다.
+lang: ko
+baseurl: /career
+timezone: Asia/Seoul
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /:year/:month/:day/:title/
+show_excerpts: true
+
+header_pages:
+  - about.md
+
+exclude:
+  - README.md
+  - .gitignore
+  - .claude
